@@ -3,15 +3,14 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-ADD package.json /
 
 RUN apk add --no-cache nodejs-npm jq && \
-npm install gulp -g && \
-npm install
+npm install express
 
 # Copy data for add-on
 COPY run.sh /
-COPY gulpfile.js /
+COPY ghoma.js /
+COPY ghoma_server.js
 RUN chmod a+x /run.sh
 
 CMD [ "/run.sh" ]
