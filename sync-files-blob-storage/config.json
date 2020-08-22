@@ -19,5 +19,5 @@
   ],
   "options": {},
   "schema": {},
-  "image": "hassio-addons/addon-base"
+  "image": "cschmatzler/ghoma-{arch}"
 }
