@@ -19,5 +19,6 @@
   ],
   "options": {},
   "schema": {},
-  "image": "arm32v7/node:alpine"
+  "image": "arm32v7/node:alpine",
+  "legacy": true
 }
