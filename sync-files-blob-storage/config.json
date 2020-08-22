@@ -19,6 +19,5 @@
   ],
   "options": {},
   "schema": {},
-  "image": "arm32v7/node:alpine",
-  "legacy": true
+  "image": "homeassistant/armv7-base",
 }
