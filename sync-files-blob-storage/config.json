@@ -1,6 +1,6 @@
 {
     "name": "Sync files to Azure blob storage",
-    "version": "1",
+    "version": "3.12",
     "slug": "sync_cam",
     "description": "Sync files to your azure blob storage",
     "startup": "before",
