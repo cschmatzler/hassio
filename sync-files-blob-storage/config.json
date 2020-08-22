@@ -17,7 +17,7 @@
       "armv7",
       "i386"
   ],
-  "options": [],
-  "schema": [],
+  "options": {},
+  "schema": {},
   "image": "hassio-addons/addon-base"
 }
