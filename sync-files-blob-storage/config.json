@@ -5,17 +5,17 @@
     "description": "Sync files to your azure blob storage",
     "startup": "before",
     "boot": "auto",
-      "ports": {
-        "3000/tcp": 3000
-      },
-      "ports_description": {
-        "3000/tcp": "Control Server"
-      },
-      "arch": [
-        "aarch64",
-        "amd64",
-        "armv7",
-        "i386"
-    ],
-    "image": "npm"
-  }
+    "ports": {
+      "3000/tcp": 3000
+    },
+    "ports_description": {
+      "3000/tcp": "Control Server"
+    },
+    "arch": [
+      "aarch64",
+      "amd64",
+      "armv7",
+      "i386"
+  ],
+  "image": "npm"
+}
