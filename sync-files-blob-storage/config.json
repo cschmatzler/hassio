@@ -19,5 +19,5 @@
   ],
   "options": {},
   "schema": {},
-  "image": "cschmatzler/ghoma-{arch}"
+  "image": "arm32v7/node:latest"
 }
