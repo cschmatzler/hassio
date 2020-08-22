@@ -5,15 +5,16 @@
     "description": "Sync files to your azure blob storage",
     "startup": "before",
     "boot": "auto",
-    "map": [
-      "share:rw"
+      "ports": {
+        "3000/tcp": 3000
+      },
+      "ports_description": {
+        "3000/tcp": "Control Server"
+      },
+      "arch": [
+        "aarch64",
+        "amd64",
+        "armv7",
+        "i386"
     ],
-    "options": {
-      "connectionString": "",
-      "watch": "*.jpg"
-    },
-    "schema": {
-      "connectionString": "str",
-      "watch" : "str"
-    }
   }
