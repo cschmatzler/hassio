@@ -19,5 +19,6 @@
   ],
   "options": {},
   "schema": {},
-  "image": "arm32v7/node"
+  "image": "arm32v7/node",
+  "init": true
 }
