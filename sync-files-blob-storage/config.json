@@ -1,6 +1,6 @@
 {
     "name": "Sync files to Azure blob storage",
-    "version": "3.12",
+    "version": "14.8-alpine",
     "slug": "sync_cam",
     "description": "Sync files to your azure blob storage",
     "startup": "before",
@@ -19,5 +19,5 @@
   ],
   "options": {},
   "schema": {},
-  "image": "homeassistant/armv7-base"
+  "image": "arm32v7/node"
 }
