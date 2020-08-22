@@ -19,5 +19,5 @@
   ],
   "options": {},
   "schema": {},
-  "image": "homeassistant/armv7-base",
+  "image": "homeassistant/armv7-base"
 }
