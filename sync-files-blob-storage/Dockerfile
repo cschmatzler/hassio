@@ -12,5 +12,6 @@ COPY ghoma.js
 COPY ghoma_server.js
 
 RUN chmod a+x /run.sh
+RUN chmod a+x /ghoma_server.js
 
 CMD [ "/run.sh" ]
