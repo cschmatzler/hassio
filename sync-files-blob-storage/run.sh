@@ -1,4 +1,3 @@
-#!/bin/bash
-set -e
+#!/usr/bin/with-contenv bashio
 
-node ghoma_server
+echo Hello world!
