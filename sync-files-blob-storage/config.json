@@ -9,9 +9,11 @@
   "options": {},
   "schema": {},
   "ports": {
-      "3000/tcp": 3000
+      "3000/tcp": 3000,
+      "4196/tcp": 4196
     },
    "ports_description": {
-      "3000/tcp": "Control Server"
+      "3000/tcp": "Control Server",
+     "4196/tcp": "Connection to sockets"
    }
 }
