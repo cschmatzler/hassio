@@ -3,7 +3,7 @@ FROM $BUILD_FROM
 
 ENV LANG C.UTF-8
 
-
+RUN apk add --update nodejs npm
 RUN npm install express
 
 # Copy data for add-on
