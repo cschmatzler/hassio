@@ -1,24 +1,11 @@
 {
-    "name": "Sync files to Azure blob storage",
-    "version": "14.8-alpine",
-    "slug": "sync_cam",
-    "description": "Sync files to your azure blob storage",
-    "startup": "before",
-    "boot": "auto",
-    "ports": {
-      "3000/tcp": 3000
-    },
-    "ports_description": {
-      "3000/tcp": "Control Server"
-    },
-    "arch": [
-      "aarch64",
-      "amd64",
-      "armv7",
-      "i386"
-  ],
+  "name": "Hello world",
+  "version": "1",
+  "slug": "hello_world",
+  "description": "My first real add-on!",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
   "options": {},
-  "schema": {},
-  "image": "arm32v7/node",
-  "init": true
+  "schema": {}
 }
